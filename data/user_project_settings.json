@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "presets": [
+    {
+      "id": "preset_5e361788",
+      "name": "横画面FHDカスタム01",
+      "output_width": 1920,
+      "output_height": 1080,
+      "output_fps": 60,
+      "max_chars": 25,
+      "segmentation_mode": "llm",
+      "caption_model": "qwen2.5:14b",
+      "default_template_id": "user_2dfa8a0e",
+      "video_encoder": "auto"
+    }
+  ]
+}

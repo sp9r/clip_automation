@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "run_dir": "real_yt_test",
+  "source_path": "C:\\Storage\\30_Software\\90_Self_Made\\Apps\\clip_automation\\data\\runs\\20260806_144133\\video_9jP4gg_JL4I.mp4",
+  "edl_path": "real_yt_test\\edl.json",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "caption_settings": {
+    "max_chars": 24
+  },
+  "default_template_id": "user_2dfa8a0e",
+  "captions": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.0,
+      "text": "実動画にHTML5字幕を直接オーバーレイ合成",
+      "template_id": "user_2dfa8a0e"
+    }
+  ],
+  "templates": [
+    {
+      "id": "user_2dfa8a0e",
+      "name": "Noto標準",
+      "font_name": "Noto Sans JP ExtraBold",
+      "font_size": 71,
+      "primary_color": "#FFFFFF",
+      "outline_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "outline": 15.0,
+      "shadow": 0.0,
+      "alignment": 2,
+      "margin_v": 80,
+      "position_x": null,
+      "position_y": null
+    }
+  ]
+}

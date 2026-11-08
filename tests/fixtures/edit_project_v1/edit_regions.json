@@ -1,0 +1,5 @@
+[
+  {"id": "delete_head", "start": 0.0, "end": 1.0, "mode": "delete"},
+  {"id": "keep_cross_edl", "start": 1.0, "end": 3.0, "mode": "keep"},
+  {"id": "delete_tail", "start": 3.0, "end": 4.0, "mode": "delete"}
+]

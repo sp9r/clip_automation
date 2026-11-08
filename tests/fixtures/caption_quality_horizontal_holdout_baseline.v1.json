@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "fixture_id": "caption_quality_horizontal_holdout_v1",
+  "algorithm": "current heuristic before Step 2",
+  "settings": {"max_chars": 32, "max_lines": 2},
+  "metrics": {
+    "caption_count": 19,
+    "source_word_count": 61,
+    "actual_boundary_count": 18,
+    "acceptable_boundary_count": 17,
+    "boundary_precision": 0.9444444444,
+    "allowed_boundary_recall": 0.5,
+    "empty_caption_count": 0,
+    "max_chars_violation_count": 0,
+    "max_lines_violation_count": 0,
+    "timing_mismatch_count": 0,
+    "omitted_character_count": 0,
+    "duplicated_character_count": 0,
+    "average_char_count": 14.7894736842,
+    "median_char_count": 15.0,
+    "min_char_count": 9,
+    "max_char_count": 19,
+    "average_duration_seconds": 1.7368421053,
+    "short_caption_count": 0,
+    "order_preserved": true,
+    "exact_source_fidelity": true,
+    "timestamp_preserved": true,
+    "allowed_boundary_count": 34,
+    "allowed_boundary_hit_count": 17,
+    "allowed_boundary_hit_rate": 0.9444444444,
+    "bad_boundary_count": 1,
+    "protected_boundary_violation_count": 1,
+    "max_lines_application": "renderer_owned"
+  },
+  "representative_failures": [
+    {"word_index": 54, "text": "長時間動かしてから", "reason": "verb continuation", "protected": true}
+  ],
+  "note": "holdout expected boundaries are frozen before Step 2 algorithm tuning."
+}

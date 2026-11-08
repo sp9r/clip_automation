@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "revision": 0,
+  "run_dir": "fixture_run",
+  "source_path": "source.mp4",
+  "edl_path": "edl.json",
+  "output": {"width": 1080, "height": 1920, "fps": 30},
+  "caption_settings": {"max_chars": 32},
+  "default_template_id": "standard",
+  "captions": [
+    {
+      "id": "cap_000001",
+      "start_word_id": 0,
+      "end_word_id": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "source_text": "あい",
+      "display_text": "あい",
+      "text_status": "as_transcribed",
+      "timing_mode": "word_bound",
+      "word_timing_overrides": [],
+      "template_id": "standard"
+    },
+    {
+      "id": "cap_000002",
+      "start_word_id": 2,
+      "end_word_id": 3,
+      "start": 2.0,
+      "end": 4.0,
+      "source_text": "うえ",
+      "display_text": "うえ",
+      "text_status": "as_transcribed",
+      "timing_mode": "word_bound",
+      "word_timing_overrides": [],
+      "template_id": "standard"
+    }
+  ]
+}

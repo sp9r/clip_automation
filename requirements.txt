@@ -1,0 +1,14 @@
+yt-dlp
+faster-whisper
+nvidia-cublas-cu12; platform_system == "Windows"
+nvidia-cudnn-cu12; platform_system == "Windows"
+gradio
+pillow
+opencv-python
+fastapi
+uvicorn
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+fugashi==1.5.2
+unidic-lite==1.0.8

@@ -1,0 +1,3 @@
+[0:v]select='between(t,14.000000,17.000000)',setpts=N/FRAME_RATE/TB,scale=w=1920:h=1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,fps=30[cut_v];
+[cut_v][1:v]overlay=0:0:enable='between(t,0.000,3.000)'[final_v];
+[0:a]aselect='between(t,14.000000,17.000000)',asetpts=N/SR/TB[final_a]

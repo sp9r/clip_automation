@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# 認証情報（絶対にコミットしない）
+credentials/
+data/credentials/
+data/tokens/
+*.env
+.env
+*_oauth.json
+*.json.secret
+client_secret*.json
+token.json
+*.oauth.json
+
+# 生成データ・キャッシュ（大容量バイナリ）
+data/clips/
+data/raw/
+data/transcripts/
+data/runs/
+data/evaluations/
+data/html_caption_cache/
+data/font_cache/
+data/user_caption_templates.json
+*.mp4
+*.mp3
+*.wav
+*.avi
+
+# Whisperモデルキャッシュ
+*.bin
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+node_modules/
+editor_frontend/dist/
+*.tsbuildinfo
+
+# Local caption LLM profile (holds a key file path, not the key)
+caption_llm.local.json

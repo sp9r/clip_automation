@@ -1,0 +1,6 @@
+[
+  {"word_id": 0, "text": "あ", "probability": 0.99, "source_start": 10.0, "source_end": 11.0, "timeline_start": 0.0, "timeline_end": 1.0},
+  {"word_id": 1, "text": "い", "probability": 0.99, "source_start": 11.0, "source_end": 12.0, "timeline_start": 1.0, "timeline_end": 2.0},
+  {"word_id": 2, "text": "う", "probability": 0.99, "source_start": 20.0, "source_end": 21.0, "timeline_start": 2.0, "timeline_end": 3.0},
+  {"word_id": 3, "text": "え", "probability": 0.99, "source_start": 21.0, "source_end": 22.0, "timeline_start": 3.0, "timeline_end": 4.0}
+]

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "2ae39ae45ffe4755865616fe6285b812",
+      "created_at": "2026-08-07T08:56:30+09:00",
+      "run_dir": "C:\\Storage\\30_Software\\90_Self_Made\\Apps\\clip_automation\\data\\runs\\20260807_081656",
+      "verdict": "good",
+      "original_highlight": {
+        "start": 32.4,
+        "end": 49.8,
+        "reason": "参加者への不満を爆発させるシーンが最も視聴者の関心を引き、動画の盛り上がりを象徴している。特に『○○くんのことフォローしたんですか』という質問に対する編集者の返答は、その場の感情をストレートに表現しており、炎上状態を作り出し、注目を集めやすい。"
+      },
+      "corrected_highlight": null,
+      "comment": "E2Eテスト保存"
+    },
+    {
+      "id": "8b432785d13b407aae1e493f4d969cef",
+      "created_at": "2026-08-07T08:56:56+09:00",
+      "run_dir": "C:\\Storage\\30_Software\\90_Self_Made\\Apps\\clip_automation\\data\\runs\\20260807_081656",
+      "verdict": "good",
+      "original_highlight": {
+        "start": 32.4,
+        "end": 49.8,
+        "reason": "参加者への不満を爆発させるシーンが最も視聴者の関心を引き、動画の盛り上がりを象徴している。特に『○○くんのことフォローしたんですか』という質問に対する編集者の返答は、その場の感情をストレートに表現しており、炎上状態を作り出し、注目を集めやすい。"
+      },
+      "corrected_highlight": null,
+      "comment": "E2Eテスト保存"
+    }
+  ]
+}
